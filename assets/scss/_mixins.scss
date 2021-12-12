@@ -1,0 +1,9 @@
+@mixin font {
+    color: rgb(27, 128, 161);
+    font-size: 3rem;
+    margin-top: 20px;
+}
+.titulo {
+    text-align: center;
+    @include font;
+}
