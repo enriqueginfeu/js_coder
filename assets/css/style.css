@@ -75,7 +75,12 @@ body {
 }
 
 #producto2  {
-  border-radius: rgb(36, 36, 36) 2px solid;
+-webkit-border-radius: 10px;
+-webkit-border-top-right-radius: 80px;
+-moz-border-radius: 10px;
+-moz-border-radius-topright: 80px;
+border-radius: 10px;
+border-top-right-radius: 80px;
   background-color: #fafafa;
   margin: 1rem;
   padding: 1rem;
